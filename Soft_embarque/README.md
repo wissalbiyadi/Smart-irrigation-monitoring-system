@@ -39,33 +39,6 @@ The project is built on a client–server architecture:
 * **Web server:** lighttpd
 * **Communication:** RESTful API in Python
 
-
-## 📂 Project Structure
-
-📦 SmartWateringSystem
-├── README.md
-├── server/
-│   ├── sol.py
-│   ├── temperature_humidite.py
-│   ├── pompe.py
-│   ├── water_sensor.py
-│   ├── io.c
-│   └── io.h
-├── web/
-│   ├── web_led7.php
-│   ├── test1.php
-│   ├── test2.php
-│   ├── pompe.php
-│   ├── water_sensor.php
-│   └── assets/
-│       └── style.css
-├── database/
-│   ├── sol.db
-│   ├── temperature_humidite.db
-│   └── historique.db
-└── docs/
-    └── Report.pdf
-
 🧪 Testing and Validation
 
 * Unit tests performed for each sensor (LEDs, FC-28, DHT11, pump, ultrasonic).
